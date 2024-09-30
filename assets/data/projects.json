@@ -1,0 +1,1166 @@
+{
+    "projects": [
+		{
+            "Id": "wtld",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/WhenTheLightDies/WhenTheLightDies_mini.webp",
+            "titleUrl": "When The Light Dies",
+            "subtitleUrl": "PQube (at Secret Level Studios)",
+            "title": "When The Light Dies",
+            "description": "Led development of the 'When The Light Dies' project for 10 months, transitioning from an external studio and managing a small team through the final stages.",
+            "tags": [
+                "Unity3D",
+                "C#",
+                "Visual Studio",
+                "GIT",
+				"FMOD"
+            ],
+            "images": [
+                
+            ],
+            "videos": [
+                {
+                    "url": "https://www.youtube.com/embed/RDHsmZblK_8",
+                    "description": "Announcement Trailer for 'When the Light Dies'."
+                },
+				                {
+                    "url": "https://www.youtube.com/embed/F6haafMkBtk",
+                    "description": "Gameplay Guide for 'When the Light Dies'."
+                }				
+            ],
+            "buttons": [
+            {
+                "url": "https://store.steampowered.com/app/2185990/When_the_Light_Dies/",
+                "name": "Steam"
+            }
+            ]
+        },
+		{
+            "Id": "potionpermit",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/PotionPermit/PotionPermit_mini.webp",
+            "titleUrl": "Potion Permit",
+            "subtitleUrl": "PQube (at Secret Level Studios)",
+            "title": "Potion Permit",
+            "description": "Created patches for PS5 and PS4.",
+            "tags": [
+                "Unity3D",
+                "C#",
+                "Visual Studio",
+                "GIT"
+            ],
+            "images": [
+                
+            ],
+            "videos": [
+                {
+                    "url": "https://www.youtube.com/embed/cgbQ0euDTYc",
+                    "description": "Launch Trailer for 'Potion Permit'."
+                }			
+            ],
+            "buttons": [
+            {
+                "url": "https://store.steampowered.com/app/1337760/Potion_Permit/",
+                "name": "Steam"
+            },
+			{
+                "url": "https://store.playstation.com/en-gb/concept/10002179",
+                "name": "Playstation"
+            }
+            ]
+        },
+		{
+            "Id": "knightvsgiant",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/KnightVSGiant/KnightVSGiant_mini.webp",
+            "titleUrl": "Knight vs Giant: The Broken Excalibur",
+            "subtitleUrl": "PQube (at Secret Level Studios)",
+            "title": "Knight vs Giant: The Broken Excalibur",
+            "description": "Created patches for PS5.",
+            "tags": [
+                "Unity3D",
+                "C#",
+                "Visual Studio",
+                "GIT"
+            ],
+            "images": [
+                
+            ],
+            "videos": [
+                {
+                    "url": "https://www.youtube.com/embed/HSxr4HuKXUw",
+                    "description": "Launch Trailer for 'Knight vs Giant: The Broken Excalibur'."
+                }			
+            ],
+            "buttons": [
+            {
+                "url": "https://store.steampowered.com/app/715680/Knight_vs_Giant_The_Broken_Excalibur/",
+                "name": "Steam"
+            },
+			{
+                "url": "https://store.playstation.com/en-gb/concept/10007760",
+                "name": "Playstation"
+            }
+            ]
+        },
+        {
+            "Id": "overcooked2",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/OverCooked2/OverCooked2Cover_mini.webp",
+            "titleUrl": "OverCooked 2",
+            "subtitleUrl": "Team17",
+            "title": "Team17 Project: OverCooked 2",
+            "description": "Bug fixing on the Alibaba platform of the game.<br/><br/>Bug fixing on the Steam version of the game, with main task to offer support to more controllers for OSX and Linux versions.",
+            "tags": [
+                "Unity3D",
+                "C#",
+                "Visual Studio",
+                "Perforce"
+            ],
+            "images": [
+
+            ],
+            "videos": [
+                {
+                    "url": "https://www.youtube.com/embed/qpzmirQllT0",
+                    "description": "OverCooked 2 trailer."
+                }
+            ],
+            "buttons": [
+            {
+                "url": "https://store.steampowered.com/app/728880/Overcooked_2/",
+                "name": "Steam"
+            }
+            ]
+        },
+        {
+            "Id": "hellletloose",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/HellLetLoose/HellLetLoose_mini.webp",
+            "titleUrl": "Hell Let Loose",
+            "subtitleUrl": "Team17",
+            "title": "Team17 Project: Hell Let Loose",
+            "description": "Carried out the Windows Store conversion.<br/><br/>Added new functionality for blocking text and voice chat in game.<br/>Also made it so it automatically mutes players that are blocked/muted in the platform's social system (so that it is compliant with xbox).",
+            "tags": [
+                "Unreal Engine",
+                "C++",
+                "Rider",
+                "Visual Studio",
+                "Perforce"
+            ],
+            "images": [
+
+            ],
+            "videos": [
+                {
+                    "url": "https://www.youtube.com/embed/jJj_cvFYT4M",
+                    "description": "Hell Let Loose trailer."
+                }
+            ],
+            "buttons": [
+            {
+                "url": "https://www.xbox.com/en-GB/games/store/hell-let-loose/9n44wk3wv2hj",
+                "name": "MicrosoftStore"
+            }
+            ]
+        },
+        {
+            "Id": "thymesia",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/Thymesia/Thymesia_mini.webp",
+            "titleUrl": "Thymesia",
+            "subtitleUrl": "Team17",
+            "title": "Team17 Project: Thymesia",
+            "description": "Bug fixing for the Amazon Luna, Switch and GOG platforms.",
+            "tags": [
+                "Unreal Engine",
+                "C++",
+                "Visual Studio",
+                "Perforce"
+            ],
+            "images": [
+
+            ],
+            "videos": [
+                {
+                    "url": "https://www.youtube.com/embed/N1DAlYcaEfo",
+                    "description": "Thymesia trailer."
+                }
+            ],
+            "buttons": [
+            {
+                "url": "https://store.steampowered.com/app/1343240/Thymesia/",
+                "name": "Steam"
+            },
+            {
+                "url": "https://www.gog.com/en/game/thymesia",
+                "name": "GOG"
+            }
+            ]
+        },
+        {
+            "Id": "theknightwitch",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/TheKnightWitch/TheKnightWitch_mini.webp",
+            "titleUrl": "The Knight Witch",
+            "subtitleUrl": "Team17",
+            "title": "Team17 Project: The Knight Witch",
+            "description": "Carried out a part of the Windows Store and GOG conversion.",
+            "tags": [
+                "Unity3D",
+                "C#",
+                "Visual Studio",
+                "Perforce"
+            ],
+            "images": [
+
+            ],
+            "videos": [
+                {
+                    "url": "https://www.youtube.com/embed/sF6bXie3us0",
+                    "description": "The Knight Witch trailer."
+                }
+            ],
+            "buttons": [
+            {
+                "url": "https://store.steampowered.com/app/1872680/The_Knight_Witch/",
+                "name": "Steam"
+            },
+            {
+                "url": "https://www.gog.com/en/game/the_knight_witch",
+                "name": "GOG"
+            }
+            ]
+        },
+        {
+            "Id": "theserpentrogue",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/TheSerpentRogue/TheSerpentRogue_mini.webp",
+            "titleUrl": "The Serpent Rogue",
+            "subtitleUrl": "Team17",
+            "title": "Team17 Project: The Serpent Rogue",
+            "description": "Carried out the Windows Store and Xbox One conversions.<br/><br/>Bug fixing for the Switch, XboxSX, XboxOne, Windows Store, PS4 and PS5 platforms.",
+            "tags": [
+                "Unity3D",
+                "C#",
+                "Visual Studio",
+                "Perforce"
+            ],
+            "images": [
+
+            ],
+            "videos": [
+                {
+                    "url": "https://www.youtube.com/embed/QQxg_wb3qEE",
+                    "description": "The Serpent Rogue trailer."
+                }
+            ],
+            "buttons": [
+            {
+                "url": "https://store.steampowered.com/app/1453790/The_Serpent_Rogue/",
+                "name": "Steam"
+            },
+            {
+                "url": "https://www.xbox.com/en-GB/games/store/the-serpent-rogue/9N7CKKL3J5N3",
+                "name": "MicrosoftStore"
+            }
+            ]
+        },
+        {
+            "Id": "hokkolife",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/HokkoLife/HokkoLife_mini.webp",
+            "titleUrl": "Hokko Life",
+            "subtitleUrl": "Team17",
+            "title": "Team17 Project: Hokko Life",
+            "description": "Bug fixing for the Amazon Luna platform.",
+            "tags": [
+                "Unity3D",
+                "C#",
+                "Visual Studio",
+                "Perforce"
+            ],
+            "images": [
+
+            ],
+            "videos": [
+                {
+                    "url": "https://www.youtube.com/embed/DQvSmwI0ZW4",
+                    "description": "Hokko Life trailer."
+                }
+            ],
+            "buttons": [
+            {
+                "url": "https://store.steampowered.com/app/824000/Hokko_Life/",
+                "name": "Steam"
+            }
+            ]
+        },
+        {
+            "Id": "crowntrick",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/CrownTrick/CrownTrick_mini.webp",
+            "titleUrl": "Crown Trick",
+            "subtitleUrl": "Team17",
+            "title": "Team17 Project: Crown Trick",
+            "description": "Carried out the Epic Games Store conversion.",
+            "tags": [
+                "Unity3D",
+                "C#",
+                "Visual Studio",
+                "Perforce"
+            ],
+            "images": [
+
+            ],
+            "videos": [
+                {
+                    "url": "https://www.youtube.com/embed/IdBI_GomGO4",
+                    "description": "Crown Trick trailer."
+                }
+            ],
+            "buttons": [
+            {
+                "url": "https://store.steampowered.com/app/1000010/Crown_Trick/",
+                "name": "Steam"
+            },
+            {
+                "url": "https://store.epicgames.com/en-US/p/crown-trick-11494d",
+                "name": "EGS"
+            }
+            ]
+        },
+		        {
+            "Id": "bscthesis",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/BScThesis/UndergraduateThesis11_mini.webp",
+            "titleUrl": "AR Escape Room",
+            "subtitleUrl": "BSc Thesis",
+            "title": "BSc Thesis: AR Escape Room",
+            "description": "This is my BSc Thesis for University of Piraeus, Greece.<br/><br/> Design and development of an augmented reality game, using Unity3D and Vuforia. The game application scans and recognizes printed patterns through camera, enabling the user to navigate through rooms, search them for hidden objects and solve riddles in order to successfully finish the game. (Concept inspired by Escape the Room games)<br/><br/>An AR Paper and and AR cube are used.<br/>The AR paper acts as the scene. A shader used to cut any scene elements that fall outside of the AR paper bounds.<br/>The AR cube acts as the selected inventory item, which you can inspect by rotating it in your hand or used by placing objects in the scene to solve puzzles.",
+            "tags": [
+                "Unity3D",
+                "C#",
+                "Visual Studio",
+                "Vuforia",
+                "Unity ProBuilder",
+                "Gimp"                
+            ],
+            "images": [
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis1.jpeg",
+                    "description": "Area 1"
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis2.jpeg",
+                    "description": "Area 1."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis3.jpeg",
+                    "description": "Area 2."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis4.jpeg",
+                    "description": "Area 2."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis5.jpeg",
+                    "description": "Area 2 Chest."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis6.jpeg",
+                    "description": "Area 2 view of Area 1."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis7.jpeg",
+                    "description": "Area 1 blocked door."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis8.jpeg",
+                    "description": "Area 1 open door and view of Area 3."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis9.jpeg",
+                    "description": "Area 3."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis10.jpeg",
+                    "description": "Area 3 open chest."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis11.jpeg",
+                    "description": "Area 1 gameplay in the real world using an android device. Normals are inverted to be able to see the scene from whichever angle desired."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis12.jpeg",
+                    "description": "Inventory system."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis13.jpeg",
+                    "description": "Area 3 gameplay in the real world using an android device. Normals are inverted to be able to see the scene from whichever angle desired."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis14.jpeg",
+                    "description": "Holding an AR cube with a point of view puzzle. Normals are inverted to give the illusion of the physical cube being hollow."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis15.jpeg",
+                    "description": "Holding an AR cube with a solved point of view puzzle. Normals are inverted to give the illusion of the physical cube being hollow."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis16.jpeg",
+                    "description": "Chest with interactable padlock puzzle."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis17.jpeg",
+                    "description": "Open chest. You can see the AR paper sued more clearly here."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis18.jpeg",
+                    "description": "Area 2 with open chest gameplay in the real world using an android device"
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis19.jpeg",
+                    "description": "Area 2 with empty open chest gameplay in the real world using an android device"
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis20.jpeg",
+                    "description": "Holding an AR cube with a flashlight inside. Light from the flashlight (in AR cube) affects the scene (AR paper) in order to light up puzzle items in the shadows. Normals are inverted to give the illusion of the physical cube being hollow."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis21.jpeg",
+                    "description": "Holding an AR cube with a flashlight inside. Light from the flashlight (in AR cube) affects the scene (AR paper) in order to light up puzzle items in the shadows. Normals are inverted to give the illusion of the physical cube being hollow."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis22.jpeg",
+                    "description": "Up close view of the assembled and combined 4 planks that give the code solution for the chest with the orange padlock (indicated by the orange circle)."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis23.jpeg",
+                    "description": "Up close view (flipped view) of the assembled and combined 4 planks that give the code solution. This is a skewed point of view puzzle."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis24.jpeg",
+                    "description": "Area 1 with the rail being placed in the missing spot. Not welded in with the rest yet."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis25.jpeg",
+                    "description": "Area 1 with the rail being placed in the missing spot. Not welded in with the rest yet. Blowtorch can be seen equiped and inside the AR cube. It needs to be physically placed on the unwelded rails in order to weld them."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis26.jpeg",
+                    "description": "Area 1 with the rails welded together. Warning message that there is a need to switch the rail path first before continuing."
+                },
+                {
+                    "url": "assets/images/portfolio/BScThesis/UndergraduateThesis27.jpeg",
+                    "description": "Escaped with the cart."
+                }
+                
+            ],
+            "videos": [
+
+            ],
+            "buttons": [
+
+            ]
+        },
+        {
+            "Id": "mscthesis",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/MScThesis/MasterThesis1_mini.webp",
+            "titleUrl": "Mixed Reality Hololens 2",
+            "subtitleUrl": "MSc Thesis",
+            "title": "MSc Thesis: Mixed Reality interactive experience using Hololens 2",
+            "description": "This is my MSc Thesis for Abertay University, Dundee Scotland.<br/><br/>Design and development of a Mixed Reality interactive experience using the Hololens 2 device and Unity3D. The application enables the scanning and spatial understanding of the real-world room and utilizes it to spawn cockroaches on its floor and walls. The user can interact with the cockroaches using their hands or by using their eyes. The cockroaches can move on the floor and walls, can follow the user, produce 3d sounds, move between different planes (from the wall, to the user’s hand), stand on the user's hand and be interacted with.",
+            "tags": [
+                "Unity3D",
+                "C#",
+                "Visual Studio",
+                "Hololens 2"
+            ],
+            "images": [
+                {
+                    "url": "assets/images/portfolio/MScThesis/MasterThesis1.jpeg",
+                    "description": "Holding a cockroach at the palm of my hand."
+                },
+                {
+                    "url": "assets/images/portfolio/MScThesis/MasterThesis2.jpeg",
+                    "description": "Cockroaches walking on the wall."
+                },
+                {
+                    "url": "assets/images/portfolio/MScThesis/MasterThesis3.jpeg",
+                    "description": "Cockroach transitioning from the wall to my hand."
+                },
+                {
+                    "url": "assets/images/portfolio/MScThesis/MasterThesis4.jpeg",
+                    "description": "Cockroached following me in the room."
+                }
+            ],
+            "videos": [
+                {
+                    "url": "https://www.youtube.com/embed/TXRkv8I83Oc",
+                    "description": "Video showcasing my MSc Thesis for Abertay University Dundee. This video was part of my thesis presentation."
+                }
+            ],
+            "buttons": [
+
+            ]
+        },
+        {
+            "Id": "golemgetgoing",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/GolemGetGoing/MainMenu_mini.webp",
+            "titleUrl": "Golem Get Going",
+            "subtitleUrl": "MSc Group Project",
+            "title": "MSc Group Project: Golem Get Going",
+            "description": "MSc Group Project for Abertay University, Dundee.<br/><br/>A roguelike platformer game prototype, where I developed the programming and all in-engine tasks.<br/>That includes programming, shaders, project structure and mangement, version control, Level building, etc.<br/><br/>You can download the project executable using the itch.io link below, or check the source files using the Github link instead.",
+            "tags": [
+                "Unity3D",
+                "C#",
+                "Visual Studio",
+                "GIT",
+                "Audacity",
+                "Trello"
+            ],
+            "images": [
+                {
+                    "url": "assets/images/portfolio/GolemGetGoing/MainMenu.jpeg",
+                    "description": "Main Menu."
+                },
+                {
+                    "url": "assets/images/portfolio/GolemGetGoing/Picture1.gif",
+                    "description": "Intro."
+                },
+                {
+                    "url": "assets/images/portfolio/GolemGetGoing/Picture2.gif",
+                    "description": "Movement."
+                },
+                {
+                    "url": "assets/images/portfolio/GolemGetGoing/Picture3.gif",
+                    "description": "Jump."
+                },
+                {
+                    "url": "assets/images/portfolio/GolemGetGoing/Picture4.gif",
+                    "description": "Enviromental Hazard."
+                },
+                {
+                    "url": "assets/images/portfolio/GolemGetGoing/Picture5.gif",
+                    "description": "Player Heavy Attack."
+                },
+                {
+                    "url": "assets/images/portfolio/GolemGetGoing/Picture6.gif",
+                    "description": "Gathering Currency."
+                },
+                {
+                    "url": "assets/images/portfolio/GolemGetGoing/Picture7.gif",
+                    "description": "Grunt Enemy Attack."
+                },
+                {
+                    "url": "assets/images/portfolio/GolemGetGoing/Picture8.gif",
+                    "description": "Moving Platforms."
+                },
+                {
+                    "url": "assets/images/portfolio/GolemGetGoing/Picture9.gif",
+                    "description": "Enviromental Hazards. Acid drops and acid lake."
+                },
+                {
+                    "url": "assets/images/portfolio/GolemGetGoing/Picture10.gif",
+                    "description": "Acid drops and moving platforms combat."
+                },
+                {
+                    "url": "assets/images/portfolio/GolemGetGoing/Picture11.gif",
+                    "description": "Heavy Enemy Attack. Player Light Attack"
+                },
+                {
+                    "url": "assets/images/portfolio/GolemGetGoing/Picture12.gif",
+                    "description": "Player death by heavy enemy attack."
+                }
+            ],
+            "videos": [
+            {
+                "url": "https://www.youtube.com/embed/UBhrhRuP8Gs",
+                "description": "Video presentation of the game, voiced by a classmate on the project."
+            }
+            ],
+            "buttons": [
+            {
+                "url": "https://github.com/AntoniosStergiopoulos/Golem-Get-Going",
+                "name": "Github"
+            },
+            {
+                "url": "https://astergio.itch.io/golem-get-going",
+                "name": "Itch.io"
+            },
+            {
+                "url": "https://astergio.itch.io/golem-get-going",
+                "name": "Itch.io"
+            }
+            ]
+        },
+        {
+            "Id": "lostindimension",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/LostInDimension/LostInDimension_mini.webp",
+            "titleUrl": "Lost In Dimension",
+            "subtitleUrl": "GameJam",
+            "title": "Lost In Dimension",
+            "description": "Group project submission for the “Online Together Jam” about a multiplayer game involving a mentor and a student focused in communication between them.<br/><br/>One player controls the girl character and can move her around the room, while also interacting with objects.<br/>The other player controls the ghost boy that is only able to learn and interact with the world by using the text adventure style interface.<br/> Each player can see and interact with things that the other player can't, and so they need to communicate with each other in order to solve the puzzles.<br/><br/>Developed the top-down gameplay part, networking and some UI, while another programmer developed the text-based part.<br/><br/>You can download the project using the itch.io link below.",
+            "tags": [
+                "Unity3D",
+                "C#",
+                "Visual Studio",
+                "GIT",
+                "PUN 2 Multiplayer"
+            ],
+            "images": [
+                {
+                    "url": "assets/images/portfolio/LostInDimension/MainMenu.jpeg",
+                    "description": "Main Menu."
+                },
+                {
+                    "url": "assets/images/portfolio/LostInDimension/Girl1.jpeg",
+                    "description": "Room 1, girl perspective."
+                },
+                {
+                    "url": "assets/images/portfolio/LostInDimension/Boy1.jpeg",
+                    "description": "Room 1, boy perspective."
+                },
+                {
+                    "url": "assets/images/portfolio/LostInDimension/Girl2.jpeg",
+                    "description": "Room 2, girl perspective. Entering a code to a hidden safe that the boy hinted at."
+                },
+                {
+                    "url": "assets/images/portfolio/LostInDimension/Boy2.jpeg",
+                    "description": "Room 1, boy perspective."
+                },
+                {
+                    "url": "assets/images/portfolio/LostInDimension/Girl3.jpeg",
+                    "description": "Room 2, girl perspective. Solving a logic puzzle."
+                },
+                {
+                    "url": "assets/images/portfolio/LostInDimension/Boy3.jpeg",
+                    "description": "Room 2, boy perspective. After the safe is opened."
+                }
+            ],
+            "videos": [
+
+            ],
+            "buttons": [
+            {
+                "url": "https://astergio.itch.io/lost-in-dimension",
+                "name": "Itch.io"
+            },
+            {
+                "url": "assets/documents/LostInDimensionPressKit.pdf",
+                "name": "PressKit"
+            }
+            ]
+        },
+        {
+            "Id": "airocketgenetic",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/GeneticAlgorithmRocket/GeneticAlgorithmRocketCover_mini.webp",
+            "titleUrl": "AI Rocket Genetic Algorithms",
+            "subtitleUrl": "MSc Project",
+            "title": "MSc Project: AI Rocket Genetic Algorithms",
+            "description": "Game Simulation of Genetic Algorithms for Rocket Navigation.<br/><br/> This project involves a game simulation that utilizes genetic algorithms to guide rockets through an obstacle course. The simulation serves as a practical application of genetic algorithms, demonstrating their efficacy in real-time decision-making and path optimization. Built primarily in Unity3D and C#, the project showcases not only advanced algorithmic problem-solving but also integrates game physics for a more realistic navigation experience.<br/><br/>You can download the project using the itch.io link below.",
+            "tags": [
+                "Unity3D",
+                "C#",
+                "Visual Studio"
+            ],
+            "images": [
+                {
+                    "url": "assets/images/portfolio/GeneticAlgorithmRocket/GeneticAlgorithmRocket1.jpeg",
+                    "description": "Training settings one the left and training view on the right."
+                },
+                {
+                    "url": "assets/images/portfolio/GeneticAlgorithmRocket/GeneticAlgorithmRocket2.jpeg",
+                    "description": "Training information one the left and training view on the right."
+                }
+            ],
+            "videos": [
+
+            ],
+            "buttons": [
+            {
+                "url": "https://astergio.itch.io/genetic-algorithm-rocket?secret=FemHgXlqDSMCzRZFFUsRzkDn2g",
+                "name": "Itch.io"
+            }
+            ]
+        },
+        {
+            "Id": "airocketqlearning",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/ReinforcementQLearningRocket/ReinforcementQLearningRocketCover_mini.webp",
+            "titleUrl": "Reinforcement Qlearning Rocket",
+            "subtitleUrl": "MSc Project",
+            "title": "MSc Project: Reinforcement Qlearning Rocket",
+            "description": "Game Simulation of Reinforcement Q-Learning for Rocket Navigation.<br/><br/>This project is a game simulation that leverages Reinforcement Q-Learning algorithm to autonomously guide a rocket through a field of obstacles.<br/>Developed in Unity3D and C#, the simulation serves as a hands-on exploration of machine learning techniques applied to real-time navigation challenges.<br/>The rocket's path is continuously optimized through Q-Learning, adapting to new obstacles and conditions, thereby showcasing the algorithm's capabilities in a gaming environment.<br/><br/>You can download the project using the itch.io link below.",
+            "tags": [
+                "Unity3D",
+                "C#",
+                "Visual Studio"
+            ],
+            "images": [
+                {
+                    "url": "assets/images/portfolio/ReinforcementQLearningRocket/ReinforcementQLearningRocket1.jpeg",
+                    "description": "Training settings one the left and training view on the right."
+                },
+                {
+                    "url": "assets/images/portfolio/ReinforcementQLearningRocket/ReinforcementQLearningRocket2.jpeg",
+                    "description": "Training information one the left and training view on the right."
+                }
+            ],
+            "videos": [
+
+            ],
+            "buttons": [
+            {
+                "url": "https://astergio.itch.io/reinforcement-qlearning-rocket?secret=u85Bw1UZnOpQEq8F2FpRTgh8OHA",
+                "name": "Itch.io"
+            }
+            ]
+        },
+        {
+            "Id": "bomberman",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/Bomberman/BombermanCover_mini.webp",
+            "titleUrl": "Bomberman Multiplayer",
+            "subtitleUrl": "MSc Project",
+            "title": "MSc Project: Bomberman Multiplayer",
+            "description": "Top-Down Online Multiplayer Survival Game.<br/><br/>This project is a top-down online multiplayer game, accommodating up to four players, developed in Unity3D and C#.<br/>In this arena-based game, players navigate through a maze of walls, strategically placing bombs that detonate after a set time.<br/>Walls within the arena can shield players from bomb impacts, adding a layer of strategy.<br/>When a player is caught in a bomb's blast radius, they are eliminated, and the player who placed the bomb earns points.<br/>Players can also accumulate points by collecting coins scattered throughout the arena. The game concludes when either one player remains or someone reaches a predetermined point threshold.<br/>Real-time network communication is facilitated through .NET sockets, ensuring a smooth and interactive multiplayer experience.<br/><br/>You can download the project using the itch.io link below.",
+            "tags": [
+                "Unity3D",
+                "C#",
+                "Visual Studio",
+                ".Net Sockets"
+            ],
+            "images": [
+                {
+                    "url": "assets/images/portfolio/Bomberman/Bomberman1.jpeg",
+                    "description": "Connect screen."
+                },
+                {
+                    "url": "assets/images/portfolio/Bomberman/Bomberman2.jpeg",
+                    "description": "Searching for players."
+                },
+                {
+                    "url": "assets/images/portfolio/Bomberman/Bomberman3.jpeg",
+                    "description": "Found enough players to join the game and waiting for more possible players."
+                },
+                {
+                    "url": "assets/images/portfolio/Bomberman/Bomberman4.jpeg",
+                    "description": "Multiplayer Gameplay."
+                }
+            ],
+            "videos": [
+
+            ],
+            "buttons": [
+            {
+                "url": "https://astergio.itch.io/bomberman-online-multiplayer?secret=MxyblMSfZY9Kt2Olm9Bm8xlSs",
+                "name": "Itch.io"
+            }
+            ]
+        },
+        {
+            "Id": "directxplayablescene",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/DirectXGame/DirectXSceneCover_mini.webp",
+            "titleUrl": "DirectX Playable Scene",
+            "subtitleUrl": "MSc Project",
+            "title": "MSc Project: DirectX Playable Scene",
+            "description": "Game prototype of a playable scene made in DirectX using C++ and HLSL.<br/><br/>You can download the project using the itch.io link below.",
+            "tags": [
+                "DirectX",
+                "C++",
+                "Visual Studio",
+                "HLSL"
+            ],
+            "images": [
+                {
+                    "url": "assets/images/portfolio/DirectXGame/DirectXGame.jpeg",
+                    "description": "DirectX Scene."
+                }
+            ],
+            "videos": [
+
+            ],
+            "buttons": [
+            {
+                "url": "https://astergio.itch.io/directx-playable-scene?secret=M0a0AxwA7SH9tCSxrzK4jm5P1sM",
+                "name": "Itch.io"
+            }
+            ]
+        },
+        {
+            "Id": "directxprocedural",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/DirectXProcedural/DirectXProceduralCover_mini.webp",
+            "titleUrl": "DirectX Procedural Generation",
+            "subtitleUrl": "MSc Project",
+            "title": "MSc Project: DirectX Procedural Generation",
+            "description": "Game prototype of DirectX Procedural Generation made in DirectX using C++ and HLSL.<br/><br/>You can download the project using the itch.io link below.",
+            "tags": [
+                "DirectX",
+                "C++",
+                "Visual Studio",
+                "HLSL"
+            ],
+            "images": [
+                {
+                    "url": "assets/images/portfolio/DirectXProcedural/DirectXProcedural1.jpeg",
+                    "description": "Procedural Generation Settings."
+                },
+                {
+                    "url": "assets/images/portfolio/DirectXProcedural/DirectXProcedural2.jpeg",
+                    "description": "Procedural Generation Results."
+                },
+                {
+                    "url": "assets/images/portfolio/DirectXProcedural/DirectXProcedural3.jpeg",
+                    "description": "Post Processing"
+                },
+                {
+                    "url": "assets/images/portfolio/DirectXProcedural/DirectXProcedural4.jpeg",
+                    "description": "Minigame."
+                }
+            ],
+            "videos": [
+
+            ],
+            "buttons": [
+            {
+                "url": "https://astergio.itch.io/directx-procedural-generation?secret=RVvEqyN1356OHW2j3KBxYiER48",
+                "name": "Itch.io"
+            }
+            ]
+        },
+        {
+            "Id": "theentertainmentquiz",
+            "category": "game-development app-development",
+            "imageUrl": "assets/images/portfolio/TheEntertainmentQuiz/TheEntertainmentQuiz1_mini.webp",
+            "titleUrl": "The Entertainment Quiz",
+            "subtitleUrl": "Personal Project",
+            "title": "The Entertainment Quiz",
+            "description": "My first project made with Visual Studio and C#.<br/><br/>A quiz game with Single-Player, and local Multi-Player mode, functioning like a board game (such as Trivial Pursuit).<br/>It currently sits at 10K+ downloads.<br/><br/> You can download the project using the Microsoft Store link below.",
+            "tags": [
+                "C#",
+                "Visual Studio",
+                "Windows 8.1 app"
+            ],
+            "images": [
+                {
+                    "url": "assets/images/portfolio/TheEntertainmentQuiz/TheEntertainmentQuiz1.jpeg",
+                    "description": "Main Menu."
+                },
+                {
+                    "url": "assets/images/portfolio/TheEntertainmentQuiz/TheEntertainmentQuiz2.jpeg",
+                    "description": "SinglePlayer Mode."
+                },
+                {
+                    "url": "assets/images/portfolio/TheEntertainmentQuiz/TheEntertainmentQuiz3.jpeg",
+                    "description": "SinglePlayer Mode Gameplay."
+                },
+                {
+                    "url": "assets/images/portfolio/TheEntertainmentQuiz/TheEntertainmentQuiz4.jpeg",
+                    "description": "MultiPlayer Mode."
+                },
+                {
+                    "url": "assets/images/portfolio/TheEntertainmentQuiz/TheEntertainmentQuiz5.jpeg",
+                    "description": "MultiPlayer Mode Gameplay."
+                },
+                {
+                    "url": "assets/images/portfolio/TheEntertainmentQuiz/TheEntertainmentQuiz6.jpeg",
+                    "description": "Leaderboard."
+                }
+            ],
+            "videos": [
+
+            ],
+            "buttons": [
+            {
+                "url": "https://www.microsoft.com/store/apps/9wzdncrdxh22",
+                "name": "Microsoft Store"
+            }
+            ]
+        },
+        {
+            "Id": "posit",
+            "category": "game-development app-development",
+            "imageUrl": "assets/images/portfolio/Posit/PositCover_mini.webp",
+            "titleUrl": "Posit",
+            "subtitleUrl": "Hackathon",
+            "title": "Posit",
+            "description": "Group submission for the 'Night of the Living Devs' 24-hour hackathon.<br/><br/>I Developed the programming part of a puzzle game like 'Inspector Parker' using Visual Studio and C# for Universal Windows app.",
+            "tags": [
+                "C#",
+                "Visual Studio",
+                "UWP"
+            ],
+            "images": [
+                {
+                    "url": "assets/images/portfolio/Posit/PositLevelSelect.jpeg",
+                    "description": "Level Select."
+                },
+                {
+                    "url": "assets/images/portfolio/Posit/PositGameplay.jpeg",
+                    "description": "Gameplay."
+                }
+            ],
+            "videos": [
+
+            ],
+            "buttons": [
+
+            ]
+        },
+        {
+            "Id": "blockstackerfree",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/BlockStackerFree/BlockStackerCover_mini.webp",
+            "titleUrl": "Block Stacker Free",
+            "subtitleUrl": "GameJam",
+            "title": "Block Stacker Free",
+            "description": "Group project for “Unity Development on Windows” contest.<br/><br/>Programmed a block stacking game (like Jenga) with single-player and local multiplayer mode for desktop and mobile.<br/><br/>Previously uploaded to Microsoft Store",
+            "tags": [
+                "C#",
+                "Unity3D",
+                "Visual Studio"
+            ],
+            "images": [
+                {
+                    "url": "assets/images/portfolio/BlockStackerFree/BlockStacker1.jpeg",
+                    "description": "Main Menu."
+                },
+                {
+                    "url": "assets/images/portfolio/BlockStackerFree/BlockStacker2.jpeg",
+                    "description": "Gameplay."
+                },
+                {
+                    "url": "assets/images/portfolio/BlockStackerFree/BlockStacker3.jpeg",
+                    "description": "Gameplay."
+                }
+            ],
+            "videos": [
+
+            ],
+            "buttons": [
+
+            ]
+        },
+        {
+            "Id": "projectrobot",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/ProjectRobot/ProjectRobotGameplay_mini.webp",
+            "titleUrl": "Project Robot",
+            "subtitleUrl": "Fun group project",
+            "title": "Project Robot",
+            "description": "Fun group project, where I programmed the core mechanics part of a 2.5D story driven puzzle platformer.",
+            "tags": [
+                "C#",
+                "Unity3D",
+                "Visual Studio"
+            ],
+            "images": [
+                {
+                    "url": "assets/images/portfolio/ProjectRobot/ProjectRobotGameplay.jpeg",
+                    "description": "Gameplay."
+                },
+                {
+                    "url": "assets/images/portfolio/ProjectRobot/ProjectRobotLevelSelect.jpeg",
+                    "description": "Level Select."
+                },
+                {
+                    "url": "assets/images/portfolio/ProjectRobot/ProjectRobotPrototypeLevel.jpeg",
+                    "description": "Prototype Level."
+                }
+            ],
+            "videos": [
+
+            ],
+            "buttons": [
+
+            ]
+        },
+        {
+            "Id": "projectelements",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/ProjectElements/ProjectElementsMenu_mini.webp",
+            "titleUrl": "Project Elements",
+            "subtitleUrl": "Fun group project",
+            "title": "Project Elements",
+            "description": "Fun group project, where I programmed a 2.5D infinite platformer where the player utilizes the 4 elements in order to overcome random obstacles.<br/><br/>Designed for mobile.",
+            "tags": [
+                "C#",
+                "Unity3D",
+                "Visual Studio"
+            ],
+            "images": [
+                {
+                    "url": "assets/images/portfolio/ProjectElements/ProjectElementsMenu.jpeg",
+                    "description": "MainMenu."
+                },
+                {
+                    "url": "assets/images/portfolio/ProjectElements/ProjectElementsGameplay.jpeg",
+                    "description": "Gameplay."
+                }
+            ],
+            "videos": [
+
+            ],
+            "buttons": [
+
+            ]
+        },
+        {
+            "Id": "projectflyingcat",
+            "category": "game-development",
+            "imageUrl": "assets/images/portfolio/ProjectFlyingCat/ProjectFlyingCatGameplay_mini.webp",
+            "titleUrl": "Project Flying Cat",
+            "subtitleUrl": "Fun group project",
+            "title": "Project Flying Cat",
+            "description": "Fun group project, where I programmed an infinite scroller game, where players overcome obstacles, while acquiring as many coins as possible.<br>Inspired by Jetpack Joyride.",
+            "tags": [
+                "C#",
+                "Unity3D",
+                "Visual Studio"
+            ],
+            "images": [
+                {
+                    "url": "assets/images/portfolio/ProjectFlyingCat/ProjectFlyingCatGameplay.jpeg",
+                    "description": "Gameplay."
+                }
+            ],
+            "videos": [
+
+            ],
+            "buttons": [
+
+            ]
+        },
+        {
+            "Id": "allinoneorganiser",
+            "category": "app-development",
+            "imageUrl": "assets/images/portfolio/AllInOneOrganizer/All-In-OneOrganizeTasks_mini.webp",
+            "titleUrl": "All in One Organiser",
+            "subtitleUrl": "Hackathon",
+            "title": "All in One Organiser",
+            "description": "Submission for 'Windows 10 Game Jam Greece' two-day hackathon.<br><br>Created a task organiser app inspired by 'Trello' and 'Any.do'.",
+            "tags": [
+                "C#",
+                "Visual Studio",
+                "UWP"
+            ],
+            "images": [
+                {
+                    "url": "assets/images/portfolio/AllInOneOrganizer/All-In-OneOrganizeTasks.jpeg",
+                    "description": "Tasks View."
+                },
+                {
+                    "url": "assets/images/portfolio/AllInOneOrganizer/All-In-OneOrganizerNewTask.jpeg",
+                    "description": "Create new task."
+                }
+            ],
+            "videos": [
+
+            ],
+            "buttons": [
+
+            ]
+        },
+        {
+            "Id": "murderriddles",
+            "category": "game-development app-development",
+            "imageUrl": "assets/images/portfolio/MurderRiddles/MurderRiddles_mini.webp",
+            "titleUrl": "Murder Riddles",
+            "subtitleUrl": "Personal Project",
+            "title": "Murder Riddles",
+            "description": "Game where you have to solve murder riddles, while supporting user submitted riddles and push notifications.<br><br>Previously published to Windows Store.<br><br>Missing pictures.",
+            "tags": [
+                "C#",
+                "Visual Studio",
+                "UWP",
+                "SQL",
+                "Azure"
+            ],
+            "images": [
+                {
+                    "url": "assets/images/portfolio/MurderRiddles/MurderRiddles.jpeg",
+                    "description": "Splash Screen."
+                }
+            ],
+            "videos": [
+
+            ],
+            "buttons": [
+
+            ]
+        },
+        {
+            "Id": "iwelli",
+            "category": "web-development",
+            "imageUrl": "assets/images/portfolio/iWelli/iWelliPatientHomePage_mini.webp",
+            "titleUrl": "iWelli",
+            "subtitleUrl": "NCSR Demokritos",
+            "title": "NCSR Demokritos: iWelli",
+            "description": "I was part of the development/maintenance team of a web-based platform for Health care purposes, working for NCSR Demokritos.",
+            "tags": [
+                "AngularJS",
+                "C#",
+                "MYSQL",
+                "SOAP UI"
+            ],
+            "images": [
+                {
+                    "url": "assets/images/portfolio/iWelli/iWelliPatientHomePage.jpeg",
+                    "description": "Patient Home Screen."
+                },
+                {
+                    "url": "assets/images/portfolio/iWelli/iWelliPatientMeasurmentsPage.jpeg",
+                    "description": "Patient Mesurments."
+                },
+                {
+                    "url": "assets/images/portfolio/iWelli/iWelliDoctorPatientPage.jpeg",
+                    "description": "Doctor's Page viewing patients information."
+                }
+            ],
+            "videos": [
+
+            ],
+            "buttons": [
+                {
+                    "url": "https://www.iwelli.com/welcome/#/main/en",
+                    "name": "Website"
+                }
+            ]
+        },
+        {
+            "Id": "eufallsfest",
+            "category": "web-development",
+            "imageUrl": "assets/images/portfolio/EUFallsFest/EUFFCover_mini.webp",
+            "titleUrl": "EU Falls Fest",
+            "subtitleUrl": "NCSR Demokritos",
+            "title": "NCSR Demokritos: EU Falls Fest",
+            "description": "Website development/maintenance for an annual European festival about health care, working for NCSR Demokritos.",
+            "tags": [
+                "Javascript",
+                "HTML",
+                "CSS"
+            ],
+            "images": [
+                {
+                    "url": "assets/images/portfolio/EUFallsFest/EUFFCover.jpeg",
+                    "description": "Patient Home Screen."
+                }
+            ],
+            "videos": [
+
+            ],
+            "buttons": [
+
+            ]
+        }
+    ]
+    
+}
