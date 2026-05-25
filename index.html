@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Antonios Stergiopoulos | Game Programmer</title>
+    <meta name="description"
+        content="Portfolio of Antonios Stergiopoulos — Game Programmer specializing in Unity, C#, gameplay systems, tools, build pipelines, and shipped commercial games.">
+    <meta name="author" content="Antonios Stergiopoulos">
+    <meta name="robots" content="noindex, nofollow">
+    <meta property="og:title" content="Antonios Stergiopoulos — Game Developer Portfolio">
+    <meta property="og:description"
+        content="Game Programmer specializing in Unity, C#, gameplay systems, tools, build pipelines, and shipped commercial games.">
+    <meta property="og:url" content="https://astergio.com">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#0c0c1d">
+
+    <link rel="icon" href="assets/images/logo16.ico" sizes="32x32">
+    <link rel="icon" href="assets/images/logo192.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="assets/images/logo114.png">
+    <link rel="canonical" href="https://astergio.com/">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/icons/font-awesome-6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/retro-theme.css">
+</head>
+
+<body>
+
+    <!-- BOOT SEQUENCE -->
+    <div class="boot-screen" id="boot-screen" aria-hidden="true">
+        <div class="boot-content">
+            <p class="boot-line" style="--d:0">ASTERGIO ENTERTAINMENT SYSTEM</p>
+            <p class="boot-line" style="--d:1">Checking memory... OK</p>
+            <p class="boot-line" style="--d:2">Loading portfolio.rom...</p>
+            <div class="boot-bar" style="--d:3">
+                <div class="boot-bar-fill"></div>
+            </div>
+            <p class="boot-line boot-ready" style="--d:4">PRESS START <span class="blink">_</span></p>
+        </div>
+    </div>
+
+    <!-- STARFIELD -->
+    <canvas id="starfield" aria-hidden="true"></canvas>
+
+    <!-- NAV -->
+    <header class="game-header" id="game-header">
+        <nav class="game-nav">
+            <a href="#home" class="game-logo"><span class="logo-play">▶</span> ASTERGIO</a>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="menu-links" id="menu-links">
+                <li><a href="#home" class="menu-link active" data-section="home">Home</a></li>
+                <li><a href="#about" class="menu-link" data-section="about">About</a></li>
+                <li><a href="#skills" class="menu-link" data-section="skills">Skills</a></li>
+                <li><a href="#quests" class="menu-link" data-section="quests">Quests</a></li>
+                <li><a href="#games" class="menu-link" data-section="games">Games</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ████ TITLE SCREEN ████ -->
+        <section class="section title-screen" id="home">
+            <div class="container title-layout">
+                <!-- CRT MONITOR: id used by JS to trigger turn-on animation -->
+                <div class="crt-monitor reveal-up">
+                    <div class="crt-bezel">
+                        <div class="crt-screen" id="crt-screen">
+                            <img src="assets/images/profile-photo.webp" alt="Antonios Stergiopoulos" loading="eager">
+                            <div class="crt-overlay"></div>
+                            <div class="crt-scanlines"></div>
+                            <div class="crt-scanbeam"></div>
+                            <div class="crt-flicker"></div>
+                            <div class="crt-rgb"></div>
+                            <div class="crt-subpixels"></div>
+                            <div class="crt-turnon"></div>
+                        </div>
+                        <div class="crt-bottom">
+                            <div class="crt-power-led"></div>
+                            <span class="crt-label">PLAYER ONE</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="title-info">
+                    <p class="title-intro reveal-up" style="--delay:.1s">Hello, I'm</p>
+                    <h1 class="title-name reveal-up" style="--delay:.2s">
+                        <span class="glitch" data-text="Antonios">Antonios</span>
+                        <span class="glitch" data-text="Stergiopoulos">Stergiopoulos</span>
+                    </h1>
+                    <div class="title-role reveal-up" style="--delay:.3s">
+                        <span class="pixel-diamond">◆</span> Game Programmer <span class="pixel-diamond">◆</span>
+                    </div>
+                    <ul class="title-contact reveal-up" style="--delay:.4s">
+                        <li><i class="fa fa-envelope"></i> <a
+                                href="mailto:antonis.stergiopoulos@outlook.com">antonis.stergiopoulos@outlook.com</a>
+                        </li>
+                        <li><i class="fa fa-map-marker-alt"></i> Hertfordshire, UK</li>
+                    </ul>
+                    <div class="title-links reveal-up" style="--delay:.5s">
+                        <a href="https://www.linkedin.com/in/antonios-stergiopoulos" target="_blank" rel="noopener"
+                            class="icon-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://astergio.itch.io" target="_blank" rel="noopener" class="icon-btn"
+                            aria-label="itch.io"><i class="fa-brands fa-itch-io"></i></a>
+                        <a href="assets/documents/Antonios-Stergiopoulos-CV.pdf" download class="pixel-btn">
+                            <span class="pixel-btn-inner">↓ Download CV</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-hint reveal-up" style="--delay:.8s"><span>▼ Scroll Down ▼</span></div>
+        </section>
+
+        <!-- ████ ABOUT ████ -->
+        <section class="section" id="about">
+            <div class="container">
+                <h2 class="section-title reveal-up"><span class="title-deco">◄</span> About <span
+                        class="title-deco">►</span></h2>
+                <div class="char-sheet reveal-up">
+                    <div class="char-bio">
+                        <p>Game developer with an MSc in Computer Games Technology, a BSc in Computer Science, and <span
+                                data-experience-years data-start-date="2022-03-01">4+</span> years of professional game
+                            programming experience. I have worked across shipped commercial titles, gameplay systems,
+                            editor tooling, platform support, patches, and build pipelines, with a strong focus on Unity
+                            and C#, alongside professional and academic experience with Unreal Engine, C++, DirectX, and
+                            HLSL.</p>
+                        <p>Outside of work, I’m a long-time game and board game enthusiast, and I enjoy building
+                            polished, readable, and maintainable interactive experiences.</p>
+                    </div>
+                    <div class="char-classes">
+                        <div class="class-card">
+                            <div class="class-icon"><i class="fa fa-gamepad"></i></div>
+                            <h3>Game Programming</h3>
+                            <p>Gameplay systems, feature implementation, and long-term development support across
+                                commercial and personal game projects.</p>
+                        </div>
+                        <div class="class-card">
+                            <div class="class-icon"><i class="fa fa-wrench"></i></div>
+                            <h3>Tools & Pipelines</h3>
+                            <p>Editor tools, workflow improvements, build pipelines, and technical support that help
+                                projects move faster and stay maintainable.</p>
+                        </div>
+                        <div class="class-card">
+                            <div class="class-icon"><i class="fa fa-rocket"></i></div>
+                            <h3>Platform Support</h3>
+                            <p>Platform conversions, porting support, patches, build pipelines, and release preparation
+                                across shipped Unity and Unreal Engine titles.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ████ SKILLS ████ -->
+        <section class="section section-dark" id="skills">
+            <div class="container">
+                <h2 class="section-title reveal-up"><span class="title-deco">◄</span> Skills <span
+                        class="title-deco">►</span></h2>
+                <div class="inventory-grid reveal-up">
+                    <div class="inv-panel">
+                        <div class="inv-header">⚔ Technical</div>
+                        <div class="inv-slots">
+                            <span class="inv-item" data-rarity="legendary">C#</span>
+                            <span class="inv-item" data-rarity="legendary">Unity</span>
+
+                            <span class="inv-item" data-rarity="epic">Gameplay Systems</span>
+                            <span class="inv-item" data-rarity="epic">Editor Tools</span>
+                            <span class="inv-item" data-rarity="epic">Build Pipelines</span>
+                            <span class="inv-item" data-rarity="epic">Platform Conversion</span>
+
+                            <span class="inv-item" data-rarity="rare">C++</span>
+                            <span class="inv-item" data-rarity="rare">Unreal Engine</span>
+                            <span class="inv-item" data-rarity="rare">Version Control</span>
+                            <span class="inv-item" data-rarity="rare">CI / Build Automation</span>
+                            <span class="inv-item" data-rarity="rare">Release Support</span>
+
+                            <span class="inv-item" data-rarity="uncommon">DirectX 11</span>
+                            <span class="inv-item" data-rarity="uncommon">HLSL</span>
+                            <span class="inv-item" data-rarity="uncommon">Python</span>
+                            <span class="inv-item" data-rarity="uncommon">Audio Integration</span>
+                            <span class="inv-item" data-rarity="uncommon">Localization</span>
+                        </div>
+                    </div>
+                    <div class="inv-panel">
+                        <div class="inv-header">✦ Professional</div>
+                        <div class="inv-slots">
+                            <span class="inv-item" data-rarity="legendary">Problem Solving</span>
+
+                            <span class="inv-item" data-rarity="epic">Technical Ownership</span>
+                            <span class="inv-item" data-rarity="epic">Organisation</span>
+                            <span class="inv-item" data-rarity="epic">Teamwork</span>
+
+                            <span class="inv-item" data-rarity="rare">Planning</span>
+                            <span class="inv-item" data-rarity="rare">Communication</span>
+                            <span class="inv-item" data-rarity="rare">Leadership</span>
+                            <span class="inv-item" data-rarity="rare">Documentation</span>
+                        </div>
+                        <div class="inv-legend">
+                            <span data-rarity="legendary">■ Legendary</span>
+                            <span data-rarity="epic">■ Epic</span>
+                            <span data-rarity="rare">■ Rare</span>
+                            <span data-rarity="uncommon">■ Uncommon</span>
+                            <span data-rarity="common">■ Common</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ████ QUEST LOG ████ -->
+        <section class="section" id="quests">
+            <div class="container">
+                <h2 class="section-title reveal-up"><span class="title-deco">◄</span> Quest Log <span
+                        class="title-deco">►</span></h2>
+
+                <div class="quest-columns">
+                    <div class="quest-col reveal-up">
+                        <h3 class="quest-heading"><i class="fa fa-graduation-cap"></i> Education</h3>
+
+                        <div class="quest-card completed">
+                            <div class="quest-status">✔ COMPLETED</div>
+                            <h4>MSc, Computer Games Technology</h4>
+                            <a href="https://www.abertay.ac.uk/course-search/postgraduate-taught/computer-games-technology/"
+                                target="_blank" rel="noopener" class="quest-org">Abertay University</a>
+                            <span class="quest-date">Sept 2020 — Sept 2021</span>
+                            <p>
+                                Postgraduate degree focused on advanced game development, covering gameplay programming,
+                                networked games, applied mathematics, artificial intelligence, procedural methods, and
+                                research-led development.
+                            </p>
+                            <ul class="quest-objectives">
+                                <li>Developed Unity and C# projects across gameplay, networking, AI, procedural systems,
+                                    and mixed reality</li>
+                                <li>Built C++/HLSL DirectX projects focused on rendering, playable scenes, and
+                                    procedural generation</li>
+                                <li>Created a mixed reality thesis project using Unity and HoloLens 2</li>
+                                <li>Worked on group and individual projects with a focus on technical implementation
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="quest-card completed">
+                            <div class="quest-status">✔ COMPLETED</div>
+                            <h4>BSc, Digital Systems</h4>
+                            <a href="https://www.ds.unipi.gr/en/home-en/" target="_blank" rel="noopener"
+                                class="quest-org">University of Piraeus</a>
+                            <span class="quest-date">Sept 2012 — Jul 2020</span>
+                            <p>
+                                Undergraduate degree with a computer science focus, covering programming, mathematics,
+                                data structures, algorithms, artificial intelligence, databases, and software
+                                development.
+                            </p>
+                            <ul class="quest-objectives">
+                                <li>Built projects using C#, Java, SQL, web technologies, and Unity</li>
+                                <li>Completed an augmented reality thesis project using Unity and Vuforia</li>
+                                <li>Developed a broad technical foundation across software, systems, and applied
+                                    computing</li>
+                            </ul>
+                        </div>
+
+                        <h3 class="quest-heading"><i class="fa fa-trophy"></i> Awards</h3>
+
+                        <div class="quest-card completed">
+                            <div class="quest-status">🏆 1ST PLACE</div>
+                            <h4>AI Gaming Tournament for Student Partners</h4>
+                            <a href="https://1drv.ms/u/s!Avxbzdf0fpxJgaVSpLUdrH67YDwCjA?e=bl2ryt" target="_blank"
+                                rel="noopener" class="quest-org">Microsoft</a>
+                            <span class="quest-date">Nov 2019</span>
+                            <p>
+                                Awarded first place in a Microsoft Student Partners AI gaming tournament for building
+                                the most efficient solution in both speed and analysis.
+                            </p>
+                            <ul class="quest-objectives">
+                                <li>Built an automated solution for matching cards as quickly as possible</li>
+                                <li>Used Azure Computer Vision to analyze card images and text</li>
+                                <li>Recognized for technical efficiency and problem-solving performance</li>
+                            </ul>
+                        </div>
+
+                        <h3 class="quest-heading"><i class="fa fa-heart"></i> Volunteer Experience</h3>
+
+                        <div class="quest-card completed">
+                            <div class="quest-status">✔ CONTRIBUTED</div>
+                            <h4>Educator for the Hour of Code</h4>
+                            <a href="https://hourofcode.com/" target="_blank" rel="noopener"
+                                class="quest-org">Code.org</a>
+                            <span class="quest-date">Dec 2014 &amp; Dec 2015</span>
+                            <p>
+                                Volunteered as an educator for the Hour of Code initiative, introducing elementary
+                                school students to programming through Scratch and puzzle-based activities.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="quest-col reveal-up" style="--delay:.15s">
+                        <h3 class="quest-heading"><i class="fa fa-briefcase"></i> Work</h3>
+
+                        <div class="quest-card active">
+                            <div class="quest-status">★ ACTIVE QUEST</div>
+                            <h4>Game Developer</h4>
+                            <a href="https://secretlevelstudios.com/" target="_blank" rel="noopener"
+                                class="quest-org">Secret Level Studios</a>
+                            <p class="quest-org-sub">Working closely with <a href="https://pqube.co.uk/" target="_blank"
+                                    rel="noopener">PQube</a></p>
+                            <span class="quest-date">Jan 2024 — Present</span>
+                            <p>
+                                Developing gameplay systems, editor tools, build pipeline improvements, and
+                                production-ready features for commercial Unity projects, while also supporting patches
+                                and platform-specific work where needed.
+                            </p>
+                            <ul class="quest-objectives">
+                                <li>Implemented gameplay systems and production features for active game projects</li>
+                                <li>Built editor tools and workflow improvements to support faster development</li>
+                                <li>Supported build pipelines, patches, and release preparation</li>
+                                <li>Provided technical ownership and planning support on selected projects</li>
+                                <li>Led development on When the Light Dies during its transition and final development
+                                    stages</li>
+                                <li><strong>Worked on:</strong> Kitaria Fables 2, Kitaria Fables, When the Light Dies,
+                                    Knight vs Giant: The Broken Excalibur, Potion Permit</li>
+                                <li><strong>Platforms:</strong> Steam, PS5, PS4, Xbox Series X|S, Xbox One</li>
+                            </ul>
+                        </div>
+
+                        <div class="quest-card completed">
+                            <div class="quest-status">✔ COMPLETED</div>
+                            <h4>Junior Programmer</h4>
+                            <a href="https://www.team17.com/" target="_blank" rel="noopener"
+                                class="quest-org">Team17</a>
+                            <span class="quest-date">Mar 2022 — Nov 2023</span>
+                            <p>
+                                Worked on commercially shipped titles across Unity/C# and Unreal Engine/C++ projects,
+                                supporting platform conversions, feature implementation, maintenance, and
+                                release-focused development.
+                            </p>
+                            <ul class="quest-objectives">
+                                <li>Implemented platform-specific features and conversion work across Unity and Unreal
+                                    Engine projects</li>
+                                <li>Fixed bugs and supported long-term maintenance across multiple shipped titles</li>
+                                <li>Contributed to feature development and platform release requirements</li>
+                                <li><strong>Worked on:</strong> Overcooked! 2, Hell Let Loose, Thymesia, The Knight
+                                    Witch, The Serpent Rogue, Hokko Life, Crown Trick</li>
+                                <li><strong>Platforms:</strong> WinStore, macOS, Linux, Steam, GOG, Epic Games Store,
+                                    Switch, Xbox Series X|S, Xbox One, PS5, PS4, Luna, Alibaba</li>
+                            </ul>
+                        </div>
+
+                        <div class="quest-card completed">
+                            <div class="quest-status">✔ COMPLETED</div>
+                            <h4>Microsoft Learn Student Ambassador</h4>
+                            <a href="https://studentambassadors.microsoft.com/" target="_blank" rel="noopener"
+                                class="quest-org">Microsoft</a>
+                            <span class="quest-date">Jun 2014 — Sept 2021</span>
+                            <p>
+                                Supported university teaching, created technical learning material, and represented
+                                Microsoft in student and developer community activities.
+                            </p>
+                            <ul class="quest-objectives">
+                                <li>Supported university professors during lectures and lab sessions</li>
+                                <li>Created tutorials and learning material for StudentGuru Unipi</li>
+                                <li>Worked with C#, Visual Studio, Unity, and UWP application development</li>
+                                <li>Presented and supported Microsoft-hosted student events</li>
+                            </ul>
+                        </div>
+
+                        <div class="quest-card completed">
+                            <div class="quest-status">✔ COMPLETED</div>
+                            <h4>Web Developer</h4>
+                            <a href="https://www.iit.demokritos.gr/" target="_blank" rel="noopener"
+                                class="quest-org">NCSR "DEMOKRITOS"</a>
+                            <span class="quest-date">Nov 2016 — May 2017</span>
+                            <p>
+                                Developed and maintained a public-facing website for a European healthcare event, with a
+                                focus on frontend updates, content maintenance, and reliable delivery.
+                            </p>
+                            <ul class="quest-objectives">
+                                <li>Built and maintained website pages using JavaScript, HTML, and CSS</li>
+                                <li>Supported ongoing updates for event information and public-facing content</li>
+                            </ul>
+                        </div>
+
+                        <div class="quest-card completed">
+                            <div class="quest-status">✔ COMPLETED</div>
+                            <h4>Software Developer Internship</h4>
+                            <a href="https://www.iit.demokritos.gr/" target="_blank" rel="noopener"
+                                class="quest-org">NCSR "DEMOKRITOS"</a>
+                            <span class="quest-date">Apr 2016 — June 2016</span>
+                            <p>
+                                Supported development and maintenance of a research-focused healthcare web platform,
+                                working across AngularJS frontend features, C# service integration, and web service
+                                testing.
+                            </p>
+                            <ul class="quest-objectives">
+                                <li>Developed and maintained web platform features for iwelli</li>
+                                <li>Worked with AngularJS, C#, MySQL, and SOAP-based services</li>
+                                <li>Tested web services using SoapUI</li>
+                                <li>Helped verify communication between the web platform, Android app, and connected
+                                    devices</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ████ GAME LIBRARY ████ -->
+        <section class="section section-dark" id="games">
+            <div class="container">
+                <h2 class="section-title reveal-up"><span class="title-deco">◄</span> Game Library <span
+                        class="title-deco">►</span></h2>
+                <div class="library-controls reveal-up">
+                    <div class="search-box">
+                        <i class="fa fa-search"></i>
+                        <input type="text" id="project-search" placeholder="Search games..." autocomplete="off"
+                            aria-label="Search projects">
+                    </div>
+                    <div class="cat-filters" id="category-filters">
+                        <button class="cat-btn active" data-filter="*">All <span class="cat-count"
+                                data-count="*"></span></button>
+                        <button class="cat-btn" data-filter="professional"><i class="fa fa-briefcase"></i> Professional
+                            <span class="cat-count" data-count="professional"></span></button>
+                        <button class="cat-btn" data-filter="academic"><i class="fa fa-graduation-cap"></i> Academic
+                            <span class="cat-count" data-count="academic"></span></button>
+                        <button class="cat-btn" data-filter="jam"><i class="fa fa-bolt"></i> Jams <span
+                                class="cat-count" data-count="jam"></span></button>
+                        <button class="cat-btn" data-filter="personal"><i class="fa fa-gamepad"></i> Personal <span
+                                class="cat-count" data-count="personal"></span></button>
+                        <button class="cat-btn" data-filter="other"><i class="fa fa-folder"></i> Other <span
+                                class="cat-count" data-count="other"></span></button>
+                    </div>
+                    <div class="tech-filters" id="tag-filters"></div>
+                    <div class="active-chips" id="active-filters" hidden>
+                        <div class="active-chips-list" id="active-filter-tags"></div>
+                        <button class="clear-btn" id="clear-filters">✕ Clear</button>
+                    </div>
+                    <div class="results-info" id="results-count"></div>
+                </div>
+                <div class="game-grid" id="project-grid"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ████ PROJECT MODAL ████ -->
+    <div class="game-modal" id="modal-overlay" role="dialog" aria-modal="true" aria-label="Project details" hidden>
+        <div class="game-modal-inner">
+            <button class="gm-close" id="modal-close" aria-label="Close">✕ ESC</button>
+            <div class="gm-media">
+                <div class="gm-viewer" id="media-viewer"></div>
+                <button class="gm-arrow gm-arrow-l" id="media-prev" aria-label="Previous"><i
+                        class="fa fa-chevron-left"></i></button>
+                <button class="gm-arrow gm-arrow-r" id="media-next" aria-label="Next"><i
+                        class="fa fa-chevron-right"></i></button>
+                <div class="gm-thumbstrip" id="media-thumbnails"></div>
+                <div class="gm-counter" id="media-counter"></div>
+            </div>
+            <div class="gm-info">
+                <h2 class="gm-title" id="modal-title"></h2>
+                <div class="gm-desc" id="modal-description"></div>
+                <div class="gm-tags" id="modal-tags"></div>
+                <div class="gm-actions" id="modal-buttons"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="current-year"></span> Antonios Stergiopoulos. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
